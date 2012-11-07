@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 
-package "python-software-properties"
+package "software-properties-common"
 
 execute "setup ppa apt repository" do
   command "add-apt-repository ppa:chris-lea/node.js && apt-get update"
